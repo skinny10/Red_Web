@@ -1,17 +1,20 @@
 import React from "react";
 import ArticleMoelcule from "../molecules/ArticleMoelcule";
-import Logo from "../../assets/imagenes/Logo.png";
+import Logo from "../../assets/imagenes/Logo.jpg";
+
 
 function Login() {
   return (
     <>
+
+    <div id="content">
+
+    
       <section className="flex flex-col items-center">
   <img src={Logo} alt="Logo" />
   
   <div className="text-center">
     <ArticleMoelcule content="Iniciar Sesión" />
-    <ArticleMoelcule content="Bienvenido a nuestra red social estudiantil. Regístrate ahora" />
-    <ArticleMoelcule content=" para conectarte con compañeros, acceder a recursos educativos y participar en eventos emocionantes." />
   </div>
 
 </section>
@@ -57,7 +60,7 @@ function Login() {
             <div>
               <button
                 type="submit"
-                className="flex w-full justify-center rounded-md bg-gray-500 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="flex w-full justify-center rounded-md bg-sky-700 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                Iniciar Sesión
               </button>
@@ -70,7 +73,7 @@ function Login() {
 
           <button
                 type="submit"
-                className="flex w-full justify-center rounded-md bg-zinc-50 px-3 py-1.5 text-sm font-semibold leading-6 text-black shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="flex w-full justify-center rounded-md bg-slate-300 px-3 py-1.5 text-sm font-semibold leading-6 text-black shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                Iniciar Sesión con Google
               </button>
@@ -89,7 +92,7 @@ function Login() {
 
         
       </div>
-      
+      </div>
       
     </>
   );
